@@ -1,0 +1,373 @@
+/* * {
+  box-sizing: border-box;
+} */
+div#myVideo {
+    position:fixed;
+    /* width: auto; */
+    max-height: 300px;
+    margin:0px 5px 0px 5px; 
+    object-fit: cover;
+    object-position: center;
+}
+
+div#content{
+    background-color: rgba(255, 255, 255, 0.493);
+    box-shadow: 0 4px 8px 0 rgba(196, 192, 192, 0.555);
+    overflow:hidden;
+    float:left;
+    width:70%;
+    /* min-width:100%; */
+    margin: 0;
+}
+
+div#display{
+  color: rgb(165, 165, 165);
+  width: auto;
+  height: 5px;
+  padding: 10px;
+  font-size: 1.5em;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style:italic;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+div#headinglogo{
+  max-height:10px;
+  position: sticky;
+}
+
+div#contact{
+      float:right;
+      box-shadow: #918d8d9f;
+      width:30%;
+    }
+
+
+    
+
+li {
+  display:inline; 
+  margin-left:10px;
+  margin-right:20px;
+  text-align:center; 
+  min-width:50%;
+      
+  }
+nav{
+      display: block;
+      background-color: #ffffff;
+      padding-left:20;
+      padding: 15px; 
+      position: sticky;
+      width: 100%;
+      height: 100%;
+      min-width:100%; 
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.178);
+      border-radius: 5px;
+      margin:0px 5px 0px 5px;
+      
+  }
+ nav a{
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:400;
+    text-shadow: 1px 1px #ebeaea;
+    text-decoration: none;
+    min-width: 100%;
+    color: rgb(46, 153, 202);
+  
+
+ }
+
+  h1{
+      color: #ffffff;
+      width: 100%;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 5em;
+      text-align:left; 
+      padding-top: 5%;
+  }
+
+  h2{
+    color: rgb(46, 153, 202);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    text-align: center; 
+    /* padding-top: 5%; */
+    top: 0;
+    left: 0;
+    min-width: 100%;
+  }
+
+  p{
+    line-height: 2em;
+    text-indent: 2em;
+    text-align: justify;
+    height: 90%;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 2px 2px 1px #bdbdbd1f;   */
+    max-width: 90%;
+    height: 90%;
+    margin:0 auto;
+    object-fit: cover;
+    object-position: center;
+    color: rgb(90, 90, 90);
+    border-width: 1px 0px 1px 1px;
+    border-radius: 5px; 
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+  blockquote{
+    position:absolute;
+    top: 0px;
+    color: rgb(255, 238, 6);
+    font-size: 2em;
+    text-align:left;
+    padding-top: 35%;
+    margin-left: 20%; 
+  }
+
+ 
+  footer {
+    clear: both;
+    height: 20px;
+    margin-top: -20px;
+    padding:20px;
+    text-align: center;
+    font-weight: bold;
+    position: static;
+    color: white;
+    background-color: rgb(46, 153, 202);
+    
+}
+
+ 
+.video-container{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top:30px;
+  height:0;
+  overflow: hidden;
+}
+
+.video-container video,
+.video-container object,
+.video-container embed{
+position: absolute;
+margin: 0;
+top:0;
+left:0;
+width: 100%;
+height:85%;
+}
+
+.headerTitle {
+    position:absolute;
+    top: 0px;
+    color: #f1f1f1;
+    padding: 10px;
+    top: 20%;
+  }
+
+.profil{
+    text-align: center; 
+    object-position: center;
+}
+
+.center {
+  display: block;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: sticky;
+}
+
+
+.introduction{
+    color: rgb(113, 114, 114);
+    font-size: 1em;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:justify; 
+    text-indent: 5em;
+    font-style: italic;
+    
+}
+.closing{
+  color: rgb(113, 114, 114);
+  font-size: 0.9em;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align:justify; 
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.175); */
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+}
+.flex-container-column{
+  display: flex;
+  flex-direction:column;
+  max-width: 800px;
+  max-height:500px;
+  margin: 0 auto;
+  overflow: auto;
+  /* text-align: right; */
+}
+
+.flex-container-row{
+  display: flex;
+
+}
+
+.box{
+  flex-grow:1;
+  flex-basis:25%;
+  padding: 10px;
+  margin-left:0;
+  text-align: center;
+  margin:0;
+  
+}
+
+
+
+@media screen and (max-width:513px){
+
+  div#content{
+    width: 100%;
+    /* margin:0px 5px 10px 5px;  */
+  }
+
+ 
+  div#display{
+    padding: 5px;
+    font-size: 0.5em;
+  }
+
+  
+  h1{
+    font-size: 1em
+  }
+
+  h2{
+    font-size: 0.8em;
+  }
+  .profil{
+    font-size: 1em;
+  }
+
+  .introduction{
+    font-size: 0.6em;
+  }
+  figcaption{
+    font-size: 0.5em;
+  }
+
+  p{
+    font-size: 0.4em;
+  }
+  /* nav{
+    padding-left: auto;
+    padding: 10px;
+  } */
+
+  nav{
+    padding-left:auto;
+    padding:5px; 
+  }
+  nav a{
+    font-size: 0.7em;
+  }
+  footer{
+    margin-top: 20px;
+  }
+
+  .scaledown{
+    width: 50px;
+    height: auto;
+    margin-left:5px;
+    margin-right: 5px;
+    text-align:center;
+    padding: 0px;
+    max-width: 400px;
+    max-height:250px;
+    margin: 0;
+  }
+
+  .center{
+    width: 350px;
+    height: auto;
+    margin: 0;
+    margin-left:30px;
+  }
+
+  .flex-container-column,
+  .flex-container-row, .box{
+    max-width: auto;
+    max-height:350px;
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .slider ,.slides>div{
+    font-size: 0.6em;
+    text-align:center;
+  
+  }
+
+ 
+
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: rgb(46, 153, 202);
+}
+
+a:hover {
+  color: rgb(16, 241, 230);
+}
+
+a:active {
+  color: yellow;
+}
+
+.slider {
+  width: 800px;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+  /* box-sizing: border-box; */
+  scroll-behavior: smooth;
+  margin: 0 auto;
+  max-width: 800px;
+  max-height: auto;
+}
+
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.slides >div{
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 800px;
+  height: auto;
+  margin-right: 50px;
+  border-radius: 10px;
+  position: relative;
+  max-width: 800px;
+  max-height: auto;
+}
+
